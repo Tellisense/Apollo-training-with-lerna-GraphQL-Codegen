@@ -1,0 +1,13 @@
+query getTracks {
+  tracksForHome {
+    id
+    title
+    thumbnail
+    length
+    modulesCount
+    author {
+      name
+      photo
+    }
+  }
+}

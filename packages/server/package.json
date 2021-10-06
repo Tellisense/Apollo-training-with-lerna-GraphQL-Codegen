@@ -1,0 +1,22 @@
+{
+  "name": "@altruist/graphql-server",
+  "version": "1.0.0",
+  "description": "back-end demo app for Apollo's lift-off IV course",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^3.2.0",
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.6.0",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "author": "Raphael Terrier @R4ph-t",
+  "license": "MIT",
+  "private": true
+}

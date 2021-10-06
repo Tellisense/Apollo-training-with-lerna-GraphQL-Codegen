@@ -1,0 +1,11 @@
+mutation IncrementTrackViewsMutation($incrementTrackViewsId: ID!) {
+  incrementTrackViews(id: $incrementTrackViewsId) {
+    code
+    success
+    message
+    track {
+      id
+      numberOfViews
+    }
+  }
+}

@@ -1,0 +1,8 @@
+"Author of a complete Track or a Module"
+type Author {
+  id: ID!
+  "Author's first and last name"
+  name: String!
+  "Author's profile picture"
+  photo: String
+}
